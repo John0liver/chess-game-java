@@ -5,14 +5,14 @@ import tabuleiro.Tabuleiro;
 
 public class PecaXadrez extends Peca{
 
-	private Color color;
+	private Cor color;
 
-	public PecaXadrez(Tabuleiro tabuleiro, Color color) {
+	public PecaXadrez(Tabuleiro tabuleiro, Cor color) {
 		super(tabuleiro);
 		this.color = color;
 	}
 
-	public Color getColor() {
+	public Cor getColor() {
 		return color;
 	}
 	
