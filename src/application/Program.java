@@ -23,7 +23,7 @@ public class Program {
 			System.out.println("Destino: ");
 			PosicaoXadrez destino = UI.lerPosicaoXadrez(sc);
 			
-			PecaXadrez pecaCapturada = PartidaXadrez.executarJogadaXadrez(origem, destino);
+			PecaXadrez pecaCapturada = partidaXadrez.executarJogadaXadrez(origem, destino);
 		}
 				
 	}
